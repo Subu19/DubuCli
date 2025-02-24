@@ -33,7 +33,7 @@ program
 		}
 
 		if (component === "form_builder") {
-			const repoPath = "Subu19/form_builder/src/components/form-builder";
+			const repoPath = "Subu19/form_builder/src/form-builder";
 			const targetPath = path.join(process.cwd(), "src/form-builder");
 
 			console.log(chalk.yellow("📥 Downloading form builder..."));
