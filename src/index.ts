@@ -16,7 +16,7 @@ if (!process.argv.slice(2).length) {
 program
 	.name("npx dubu")
 	.description("CLI tool to add components from GitHub")
-	.version("1.0.3");
+	.version("1.0.4");
 
 // Command: add (positional argument for component name)
 program
