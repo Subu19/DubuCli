@@ -40,9 +40,7 @@ program
 
 			try {
 				const emitter = degit(repoPath, {
-					cache: true,
 					force: true,
-					verbose: true,
 				});
 
 				await emitter.clone(targetPath);
