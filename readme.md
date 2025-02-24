@@ -2,25 +2,6 @@
 
 A simple CLI tool to add components from GitHub repositories effortlessly.  
 
-## **📦 Installation**  
-
-### **Run Directly with NPX**  
-```sh
-npx dubu add form_builder
-```
-
-### **Install Globally (Optional)**  
-```sh
-npm install -g dubu-cli
-```
-
-Now you can run:  
-```sh
-dubu add form_builder
-```
-
----
-
 ## **🛠 Features**  
 ✅ Fetches components from GitHub  
 ✅ Copies entire folders to your project  
