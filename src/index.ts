@@ -16,7 +16,7 @@ if (!process.argv.slice(2).length) {
 program
 	.name("npx dubu")
 	.description("CLI tool to add components from GitHub")
-	.version("1.0.4");
+	.version("1.0.5");
 
 // Command: add (positional argument for component name)
 program
@@ -40,7 +40,6 @@ program
 
 			try {
 				const emitter = degit(repoPath, {
-					cache: true,
 					force: true,
 					verbose: true,
 				});
